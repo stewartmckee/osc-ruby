@@ -13,7 +13,7 @@ module OSC
 private
     def generate_regex_from_pattern
       case @pattern
-        when NIL; @re = @pattern
+        when nil; @re = @pattern
         when Regexp; @re = @pattern
         when String
 
